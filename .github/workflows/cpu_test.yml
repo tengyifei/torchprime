@@ -5,8 +5,6 @@ on:
     branches:
       - main
   pull_request:
-  schedule:  # Schedule the job run at 12AM PST daily.
-  - cron: "0 8 * * *"
 
 jobs:
   setup:
